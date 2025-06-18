@@ -22,7 +22,7 @@
         compatible = "zmk,kscan-gpio-matrix";
         diode-direction = "col2row";
 
-        // Пины рядов (rows)
+ 
         row-gpios
             = <&gpio0 10 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>  // D10
             , <&gpio0 8  (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>  // D8
@@ -30,7 +30,7 @@
             , <&gpio0 9  (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>  // D9
             ;
 
-        // Пины столбцов (cols)
+
         col-gpios
             = <&gpio0 7  (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>  // D7
             , <&gpio0 6  (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>  // D6
